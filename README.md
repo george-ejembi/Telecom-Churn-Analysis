@@ -58,7 +58,7 @@ Power BI – Dashboards and visualization for business insights
 
 
 Repository / Data Structure
-Telecom-Customer-Churn/
+```Telecom-Customer-Churn/
 │
 ├── data/
 │   ├── raw/                 # Original Excel files with raw customer data
