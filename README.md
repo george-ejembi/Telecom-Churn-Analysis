@@ -78,6 +78,7 @@ Telecom-Customer-Churn/
 │
 ├── README.md
 └── LICENSE
+```
 
 Contributions
 
@@ -87,7 +88,6 @@ License
 
 MIT License – see the LICENSE
  file for details.
-```
 
  
 ## Tools I Used
