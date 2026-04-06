@@ -58,8 +58,8 @@ Power BI – Dashboards and visualization for business insights
 
 
 Repository / Data Structure
-```Telecom-Customer-Churn/
-│
+Telecom-Customer-Churn/
+```│
 ├── data/
 │   ├── raw/                 # Original Excel files with raw customer data
 │   ├── processed/           # Cleaned datasets ready for SQL import
@@ -87,14 +87,12 @@ License
 
 MIT License – see the LICENSE
  file for details.
+```
 
-
- Tool Stack
-
- ## Tools I Used
-
+ 
 ## Tools I Used
 
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sql&logoColor=white)
+
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C80F?style=for-the-badge&logo=power-bi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
