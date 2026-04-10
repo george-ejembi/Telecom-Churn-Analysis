@@ -1,0 +1,198 @@
+# Customer Churn & Revenue Performance Analysis
+
+**System:** Rock Quant Analytics Dashboard  
+**Prepared For:** Executive Management  
+**Report Date:** 10 April 2026  
+
+---
+
+## 1. Overview
+
+This repository contains an analytical report and decision framework for evaluating **customer churn behavior**, **revenue performance**, and **financial risk exposure** within a telecom-style subscription environment.
+
+The analysis demonstrates that churn is **structurally driven**, not random, and is strongly influenced by:
+
+- Contract structure  
+- Customer lifecycle stage  
+- Service engagement depth  
+- Payment behavior patterns  
+
+---
+
+## 2. Key Performance Indicators (KPIs)
+
+| Metric | Value | Interpretation |
+|--------|------|----------------|
+| Active Customers | 5,160 | Stable base with churn vulnerability |
+| Churned Customers | 1,870 | Elevated attrition volume |
+| Monthly Revenue | $455.66K | Strong revenue throughput |
+| Revenue at Risk | $139.13K | Significant exposure to churn |
+| ARPU | $64.80 | Moderate monetization efficiency |
+
+**Key Insight:**  
+A substantial portion of revenue is exposed to churn risk, indicating direct coupling between retention performance and financial stability.
+
+---
+
+## 3. Churn Behavior Analysis
+
+### 3.1 Contract Type Dynamics
+
+- Month-to-month contracts dominate churn volume (~1.7K customers)
+- One-year and two-year contracts show minimal churn incidence
+
+**Inference:**  
+Contract rigidity strongly reduces attrition probability, indicating switching cost sensitivity.
+
+---
+
+### 3.2 Tenure-Based Attrition Pattern
+
+- Highest churn concentration occurs in **0–12 month cohort (~1.04K)**
+- Churn declines monotonically with tenure
+- Customers with 4+ years tenure show minimal churn (~0.21K)
+
+**Inference:**  
+Early lifecycle phase is the highest-risk window for customer loss.
+
+---
+
+### 3.3 Technical Support Effect
+
+- Customers without technical support: high churn (~1.4K)
+- Customers with technical support: significantly lower churn (~0.3K)
+
+**Inference:**  
+Support access functions as a retention stabilizer through issue resolution and experience continuity.
+
+---
+
+### 3.4 Demographic Risk: Senior Citizens
+
+- Senior segment exhibits disproportionately high churn (~1.39K)
+
+**Inference:**  
+Likely drivers include usability friction, service complexity, or affordability constraints.
+
+---
+
+## 4. Revenue Risk Decomposition
+
+### 4.1 Contract-Based Revenue Exposure
+
+- Month-to-month customers contribute the highest revenue-at-risk (~$120K)
+- Long-term contracts significantly reduce financial exposure
+
+---
+
+### 4.2 Tenure-Based Revenue Risk
+
+- 0–12 month cohort contributes highest risk (~$68.95K)
+- Risk decreases with customer longevity
+
+---
+
+### 4.3 Payment Method Risk Profile
+
+| Payment Method | Monthly Revenue | Revenue at Risk |
+|----------------|----------------|-----------------|
+| Electronic Check | $180,345 | $84,288 |
+| Bank Transfer | $103,631 | $20,091 |
+| Credit Card | $101,175 | $17,946 |
+| Mailed Check | $70,509 | $16,803 |
+
+**Inference:**  
+Manual payment channels (especially electronic check) exhibit higher churn susceptibility.
+
+---
+
+## 5. Service Utilization Insights
+
+- Bundled usage (Online Security + Online Backup) correlates with lowest churn rates
+- Single-service or low-engagement customers show elevated attrition
+
+**Inference:**  
+Service bundling increases perceived value and switching friction.
+
+---
+
+## 6. Strategic Recommendations
+
+### 6.1 Immediate Interventions
+
+- **Contract Migration Strategy**
+  - Incentivize migration to annual/biennial plans
+  - Introduce bundled pricing incentives
+
+- **Early Lifecycle Retention Program**
+  - Focus on first 12 months of customer tenure
+  - Improve onboarding and engagement monitoring
+
+- **Payment Method Optimization**
+  - Promote automated payment channels
+  - Reduce reliance on manual payment systems
+
+---
+
+### 6.2 Medium-Term Initiatives
+
+- **Service Bundling Expansion**
+  - Integrate complementary services into unified packages
+  - Position bundles as value optimization products
+
+- **Senior Customer Strategy**
+  - Simplify UX and service structure
+  - Enhance support accessibility
+  - Evaluate pricing sensitivity adjustments
+
+---
+
+### 6.3 Advanced Analytics Roadmap
+
+- **Predictive Churn Modeling**
+  - Algorithms: Random Forest, XGBoost
+  - Feature set:
+    - Contract type
+    - Tenure
+    - Payment method
+    - Service utilization
+
+- **Revenue Risk Forecasting**
+  - Combine churn probability with ARPU
+  - Prioritize high-value high-risk customers
+
+---
+
+## 7. Conclusion
+
+Churn behavior is **predictable, structured, and intervention-sensitive**.
+
+Primary risk clusters:
+
+- Short-term contract holders  
+- Early lifecycle customers  
+- Low service engagement users  
+- Manual payment segments  
+
+### Expected Impact
+
+With targeted interventions, the system can realistically achieve:
+
+- **20–30% churn reduction**
+- Improved customer lifetime value (CLV)
+- Stabilized recurring revenue base
+
+---
+
+## 8. Future Extensions
+
+- Churn prediction model architecture documentation  
+- Feature importance analysis  
+- Customer segmentation framework  
+- Data pipeline and ETL design  
+
+---
+
+## Repository Purpose
+
+This repository serves as a **decision intelligence artifact**, bridging descriptive analytics with operational strategy for retention optimization and revenue stabilization.
